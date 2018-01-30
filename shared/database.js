@@ -9,7 +9,7 @@ const pgp = pgPromise({
 export function withDatabase(logic) {
   const database = new Database(process.env.DATABASE_URL);
   return logic(database)
-    .finally(() => pgp.end())
+    .finally(() => pgp.end());
 }
 
 class Database {
