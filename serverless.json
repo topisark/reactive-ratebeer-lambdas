@@ -1,17 +1,17 @@
 {
-  "service": "lambdas",
+  "service": "reactive-ratebeer-lambdas",
   "provider": {
     "name": "aws",
     "runtime": "nodejs6.10",
     "region": "eu-west-1"
   },
   "functions": {
-    "hello": {
-      "handler": "handler.hello",
+    "beers": {
+      "handler": "lambdas/beers.handler",
       "events": [
         {
           "http": {
-            "path": "test",
+            "path": "beers",
             "method": "get"
           }
         }
