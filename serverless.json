@@ -16,7 +16,8 @@
         {
           "http": {
             "path": "beers",
-            "method": "get"
+            "method": "get",
+            "cors": true
           }
         }
       ]
