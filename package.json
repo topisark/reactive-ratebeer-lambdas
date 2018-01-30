@@ -1,0 +1,9 @@
+{
+  "name": "reactive-ratebeer-lambdas",
+  "version": "0.0.1",
+  "description": "Reactive Ratebeer backend lambdas",
+  "main": "index.js",
+  "repository": "git@github.com:topisark/reactive-ratebeer-lambdas.git",
+  "author": "topisark <topi.sarkkinen@gmail.com>",
+  "license": "MIT"
+}
