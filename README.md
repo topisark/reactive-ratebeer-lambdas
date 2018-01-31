@@ -8,4 +8,6 @@ Test: `yarn test`. Tests are run against a test database. The connection string 
 
 Deploy: `yarn deploy`. Requires AWS credentials to be configured for Serverless, [see docs](https://serverless.com/framework/docs/providers/aws/guide/credentials/).
 
-[Continous integration on CircleCI](https://circleci.com/gh/topisark/reactive-ratebeer-lambdas)
+[Continous integration on CircleCI.](https://circleci.com/gh/topisark/reactive-ratebeer-lambdas)
+
+[Frontend project on GitHub.](https://github.com/topisark/reactive-ratebeer)
