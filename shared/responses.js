@@ -12,7 +12,7 @@ export const successResponse = (data) => ({
 
 export const errorResponse = (error) => ({
   headers: corsHeaders,
-  statusCode: error.status || 500,
+  statusCode: error && error.statusCode || 500,
   body: JSON.stringify({
     error
   })
