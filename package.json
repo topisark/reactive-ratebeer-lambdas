@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest --verbose",
     "lint": "eslint src",
-    "deploy": "yarn lint && yarn test && serverless deploy -v"
+    "deploy": "serverless deploy -v"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
