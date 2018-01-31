@@ -11,7 +11,7 @@
   },
   "functions": {
     "beers": {
-      "handler": "lambdas/beers.handler",
+      "handler": "src/lambdas/beers.handler",
       "events": [
         {
           "http": {
