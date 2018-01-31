@@ -1,4 +1,4 @@
-import { handler } from '../lambdas/beers';
+import { handler } from '../src/lambdas/beers';
 import { insertTestBeer, cleanUpTestData } from './utils/database-helper';
 
 describe('Beers lambda', () => {

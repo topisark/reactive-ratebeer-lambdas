@@ -1,4 +1,4 @@
-import { successResponse, errorResponse } from '../shared/responses';
+import { successResponse, errorResponse } from '../src/shared/responses';
 
 describe('Response templates', () => {
 
