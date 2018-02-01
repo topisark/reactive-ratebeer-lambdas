@@ -14,6 +14,10 @@ class Database {
   getBeers() {
     return this.db.any('SELECT id, name, description, brewery FROM beers');
   }
+
+  insertBeer(beer) {
+    return this.db.none('INSERT INTO beers (name, description, brewery) VALUES (${name}, ${brewery}, ${description})', beer);
+  }
 }
 
 export function withDatabase(logic) {

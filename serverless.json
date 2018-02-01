@@ -11,12 +11,19 @@
   },
   "functions": {
     "beers": {
-      "handler": "src/lambdas/beers.handler",
+      "handler": "src/lambdas/beers/handler.beers",
       "events": [
         {
           "http": {
             "path": "beers",
             "method": "get",
+            "cors": true
+          }
+        },
+        {
+          "http": {
+            "path": "beers",
+            "method": "post",
             "cors": true
           }
         }

@@ -6,13 +6,14 @@
         "jest"
     ],
     "rules": {
+        "no-template-curly-in-string": "off",
         "curly": ["error", "all"],
         "template-tag-spacing": "off",
         "import/prefer-default-export": "off",
         "function-paren-newline": "off",
         "arrow-parens": "off",
         "padded-blocks": "off",
-        "max-len": ["error", { "code": 120 }],
+        "max-len": ["error", { "code": 140 }],
         "comma-dangle": "off",
         "eol-last": "off"
     },
