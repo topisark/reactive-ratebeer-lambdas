@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest --verbose",
     "lint": "eslint src",
-    "deploy": "serverless deploy -v"
+    "deploy": "serverless deploy -v",
+    "migrate": "node-pg-migrate up"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
@@ -27,6 +28,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.7.0",
     "jest": "^22.1.4",
+    "node-pg-migrate": "^2.17.0",
     "regenerator-runtime": "^0.11.1",
     "serverless": "^1.26.0",
     "serverless-webpack": "^4.2.0",

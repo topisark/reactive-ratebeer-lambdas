@@ -8,6 +8,8 @@ Test: `yarn test`. Tests are run against a test database. The connection string 
 
 Deploy: `yarn deploy`. Requires AWS credentials to be configured for Serverless, [see docs](https://serverless.com/framework/docs/providers/aws/guide/credentials/). Serverless reads `env.json` (gitignored) in project root and imports the contents as env vars. Requires `DATABASE_URL` to be set.
 
+Also includes migrations to create required tables: `yarn migrate`. `DATABASE_URL` needs to be set, as always.
+
 [Continous integration on CircleCI.](https://circleci.com/gh/topisark/reactive-ratebeer-lambdas)
 
 [Frontend project on GitHub.](https://github.com/topisark/reactive-ratebeer)
