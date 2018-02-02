@@ -2,7 +2,7 @@
 
 ![alt text](https://circleci.com/gh/topisark/reactive-ratebeer-lambdas.png?&style=shield "CircleCI status")
 
-Backend for Ratebeer utilizing AWS Lambdas with [Serverless](https://github.com/serverless/serverless) and a PostgreSQL database.
+Backend for Ratebeer utilizing AWS Lambdas with [Serverless](https://github.com/serverless/serverless) and a PostgreSQL database hosted by AWS RDS.
 
 Test: `yarn test`. Tests are run against a test database. The connection string should be set as env var `DATABASE_URL` before running the tests, for example `postgres://user:password@host:port/database`.
 
