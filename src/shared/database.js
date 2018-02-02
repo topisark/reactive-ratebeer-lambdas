@@ -16,7 +16,7 @@ class Database {
   }
 
   insertBeer(beer) {
-    return this.db.none('INSERT INTO beers (name, description, brewery) VALUES (${name}, ${brewery}, ${description})', beer);
+    return this.db.none('INSERT INTO beers (name, description, brewery) VALUES (${name}, ${description}, ${brewery})', beer);
   }
 }
 
